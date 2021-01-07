@@ -50,5 +50,7 @@ permalink: /
 
 - **Website**: [vophuongthuy.github.io](https://vophuongthuy.github.io)
 
-- **Office**: Office 1100A,  Bulding A2,  Department of mathematics, NYU in Abu Dhabi
+- **Office**: Office 4B 090,  Bulding Copernic,  Department of mathematics LAMA, University Gustave Eiffel.
+- **Adresse: 5 boulevard Descartes, 77420 Champs-sur-Marne, France.
+
 - **Email**: [{{site.author.email}}](mailto:{{site.author.email}})
