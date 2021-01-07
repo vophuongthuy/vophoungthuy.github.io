@@ -1,16 +1,4 @@
-- course:  Math tools
-  place: "University Paris 13"
-  time: " 2nd semester  (2018-2019)"
-  more: Monitoring
-- course: "Mathematics for the engineers"
-  place: "University Paris 13"
-  time: "1st semester (2018-2019)"
-  more: "Monitoring"
-- course: "Propability and Statistics"
-  place: "University Paris 13"
-  time: "2nd semester (2017-2018)"
-  more: "Monitoring"
-- course: "Analyse 3"
-  place: "University Paris 13"
-  time: " 1st semester (2017-2018)"
-  more: "Monitoring"
+- course:  Statistics for 2nd year of Mathematics
+  place: "University Sorbonne Paris Nord"
+  time: " 2nd semester  (2019-2020)"
+  more: ATER
