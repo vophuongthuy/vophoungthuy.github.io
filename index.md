@@ -50,7 +50,7 @@ permalink: /
 
 - **Website**: [vophuongthuy.github.io](https://vophuongthuy.github.io)
 
-- **Office**: Office 4B 090,  Bulding Copernic,  Department of mathematics LAMA, University Gustave Eiffel.
-- **Adresse: 5 boulevard Descartes, 77420 Champs-sur-Marne, France.
+- **Office**: Office 4B 090,  Bulding Copernic, LAMA - University Gustave Eiffel.
+- **Address**: 5 boulevard Descartes, 77420 Champs-sur-Marne, France.
 
 - **Email**: [{{site.author.email}}](mailto:{{site.author.email}})
