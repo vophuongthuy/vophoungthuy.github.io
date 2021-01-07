@@ -1,0 +1,63 @@
+I"�<div class="about">
+  <div class="info">
+    <h1>Thuy Vo</h1>
+    <p>
+
+  My research mainly concentrates  on the analysis of   Partial Differential Equations (PDEs). I received in 2019  my  Ph.D  from Sorbonne Paris Nord University,  under the supervision of  Hatem ZAAG.  The thesis  purely contributed on  the construction of   finite time singularity formations to PDEs which are non symmetric or non variational. In particular, I am focusing on the two phenomena:   finite time  blowup and touch down. Now, I am a postdoctoral associate at New York University in Abu Dhabi, under the supervision of  Tej-Eddine GHOUL. The study focus   on the  Type II blowup   and  construction  smooth    solutions  to  SQG equation which may develop  singularity in finite time.     Such  phenomenon  remains open until now.
+    </p>
+  </div>
+  <div class="captioned-img">
+    <img src="images/avatar.jpg" alt="My avatar" />
+  </div>
+</div>
+
+<h2 id="-research"><i class="fas fa-university"></i> Research</h2>
+
+<ul>
+  <li>
+    <p><strong>Duong Giao Ky, Van Tien Nguyen, and Hatem Zaag</strong>. “Construction of a stable blowup solution with a prescribed behavior for a non-scaling-invariant semilinear heat equation”. <em>Tunisian Journal of Mathematics, Vol. 1,  No. 1, pp. 13-45 (2019)</em>. Doi:https://doi.org/10.2140/tunis.2019.1.13.  <br /></p>
+  </li>
+  <li>
+    <p><strong>Duong Giao Ky</strong>. “Profile for the imaginary part of a blowup solution for a complex-valued seminar heat equation”. <em>J. Funct. Anal, Vol. 277, No. 5,  pp. 1531-1579 (2019)</em>. Doi:https://doi.org/10.1016/j.jfa.2019.05.009.  <br /></p>
+  </li>
+  <li>
+    <p><strong>Duong Giao Ky</strong>. “A blowup solution of a complex semi-linear heat equation with an irrational power”. <em>J. Diff. Eqs (2019)</em>. Doi:https://doi.org/10.1016/j.jde.2019.05.024.  <br /></p>
+  </li>
+  <li>
+    <p><strong>Duong Giao Ky, and Hatem Zaag</strong>. “Profile of touch-down solution to a nonlocal MEMS model”. <em>Mathematical Models and Methods in Applied Sciences, Vol. 29, No. 07, pp. 1279-1348 (2019)</em>. Doi:http://dx.doi.org/10.1142/S0218202519500222.  <br /></p>
+  </li>
+  <li>
+    <p><strong>Duong Giao Ky, and  Nejla Nouaili, and Hatem Zaag</strong>. “ Construction of blow-up solutions for the Complex Ginzburg-Landau equation with critical parameters”. <em>Mem. Amer. Math. Soc., to appear, (2020). arXiv:1912.05922</em>. .  <br /></p>
+  </li>
+  <li>
+    <p><a href="/research"><em>See more</em>…</a></p>
+  </li>
+</ul>
+
+<h2 id="-teaching"><i class="fas fa-chalkboard-teacher"></i> Teaching</h2>
+
+<ul>
+  <li>
+    <p><strong>Math tools</strong>. <em>University Paris 13</em>.  2nd semester  (2018-2019). Monitoring.  <br /></p>
+  </li>
+  <li>
+    <p><strong>Mathematics for the engineers</strong>. <em>University Paris 13</em>. 1st semester (2018-2019). Monitoring.  <br /></p>
+  </li>
+  <li>
+    <p><strong>Propability and Statistics</strong>. <em>University Paris 13</em>. 2nd semester (2017-2018). Monitoring.  <br /></p>
+  </li>
+  <li>
+    <p><strong>Analyse 3</strong>. <em>University Paris 13</em>.  1st semester (2017-2018). Monitoring.  <br /></p>
+  </li>
+</ul>
+
+<h2 id="-contact"><i class="fas fa-mail-bulk"></i> Contact</h2>
+
+<ul>
+  <li>
+    <p><strong>Website</strong>: <a href="https://vophuongthuy.github.io">vophuongthuy.github.io</a></p>
+  </li>
+  <li><strong>Office</strong>: Office 1100A,  Bulding A2,  Department of mathematics, NYU in Abu Dhabi</li>
+  <li><strong>Email</strong>: <a href="mailto:phuongthuywz@gmail.com">phuongthuywz@gmail.com</a></li>
+</ul>
+:ET

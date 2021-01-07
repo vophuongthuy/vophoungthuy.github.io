@@ -1,2 +1,6 @@
 source 'https://rubygems.org'
-gem 'github-pages', group: :jekyll_plugins
+
+gem "jekyll", "~> 4.0"
+gem "liquid-c"
+
+# gem 'github-pages', group: :jekyll_plugins
