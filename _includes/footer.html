@@ -1,11 +1,28 @@
-<footer class="site-footer">
-    <a href="{{ site.url }}{{site.baseurl}}" alt="{{site.author.name}}'s website'">{{ site.author.name }}</a> 
-    | 
-    <a href="mailto:{{site.author.email}}">Contact</a> 
-    | 
-    <a href="/files/ky_duong_cv.pdf">CV</a>
-    <br />
-    Made by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="http://gchauras.github.io/much-worse-jekyll-theme/" target="_blank">Much-Worse Jekyll theme</a> 
-    | 
-    Edited by <a href="https://dinhanhthi.com" target="_blank">Thi Dinh</a>
+<footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="copyright text-muted">
+          {{ site.author.name }}
+          &nbsp;&bull;&nbsp;
+          {{ site.time | date: '%Y' }}
+
+          {% if site.url-pretty %}
+          &nbsp;&bull;&nbsp;
+          <a href="{{ site.url }}">{{ site.url-pretty }}</a>
+          {% endif %}
+
+          {% if site.matomo %}
+            {% if site.matomo.opt-out %}
+              &nbsp;&bull;&nbsp;
+              <a href="http://{{- site.matomo.uri -}}/index.php?module=CoreAdminHome&action=optOut" target="_blank" class="text_muted">Do-not-Track</a>
+            {% endif %}
+          {% endif%}
+          
+          &nbsp;&bull;&nbsp;
+          <a class="text-muted" href="/acknowledgement">Thanks</a>
+        </div>
+      </div>
+    </div>
+  </div>
 </footer>

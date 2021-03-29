@@ -1,0 +1,8 @@
+- name: "Math2IT"
+  url: "http://math2it.com/gioi-thieu"
+  des: "A Vietnamese site for intuitive knowledge (Maths, LaTeX, Education and Technology)."
+  img: "math2it.png"
+- name: "NXFEM"
+  url: "https://bitbucket.org/dinhanhthi/nxfem"
+  des: "A Matlab library for Nitsche - Extended Finite Element Method."
+  img: "nxfem.png"

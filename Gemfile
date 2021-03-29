@@ -1,6 +1,10 @@
 source 'https://rubygems.org'
+group :jekyll_plugins do
+	gem 'jekyll', "~>3.9.0"
+	gem 'jekyll-sitemap'
+	gem 'kramdown-parser-gfm'
+end
+gem 'tzinfo-data'
+gem 'jekyll-paginate'
 
-gem "jekyll", "~> 4.0"
-gem "liquid-c"
-
-# gem 'github-pages', group: :jekyll_plugins
+gem "webrick", "~> 1.7"

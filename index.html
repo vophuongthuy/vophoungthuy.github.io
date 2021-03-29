@@ -1,0 +1,80 @@
+---
+layout: base
+title: Dinh Anh Thi
+subtitle: A place where I show a part of my life
+css: 
+  - "/css/status.css"
+  - "/css/reading.css"
+  - "/css/contact-form.css"
+  - "/css/newsletter.css"
+  - "/css/sketch/sketch-page.css"
+  - "/css/project.css"
+  - "/css/activity.css"
+  - "/css/post-list.css"
+  - "/css/book-list.css"
+js:
+  - "/js/contact-form.js"
+  - "/js/sketch/jquery-1.11.1.min.js"
+---
+
+{% include header.html type="page" %}
+
+<!-- intro -->
+<section class="alt-color">
+{% include sections/sec-front-md.html %}
+{% include sections/sec-intro.html %}
+{% include sections/sec-back.html %}
+</section>
+
+<!-- activity -->
+<section class="alt-color">
+{% include sections/sec-front-lg.html %}
+{% include sections/sec-activity.html %}
+{% include sections/sec-back.html %}
+</section>
+
+<!-- projects -->
+<section class="alt-color">
+{% include sections/sec-front-md.html %}
+{% include sections/sec-project.html %}
+{% include sections/sec-back.html %}
+</section>
+
+<!-- reading -->
+<section class="alt-color">
+  <h2>Recent read books</h2>
+  <h4>
+      <a class="txt-color" href="/reading">see all books</a>
+  </h4>
+  {% include sections/sec-front-lg.html %}
+  {% include sections/sec-reading.html %}
+  {% include sections/sec-back.html %}
+</section>
+
+<!-- sketch -->
+<section class="alt-color">
+{% include sections/sec-front-lg.html %}
+{% include sections/sec-sketch.html %}
+{% include sections/sec-back.html %}
+</section>
+
+<!-- blog -->
+<section class="alt-color">
+{% include sections/sec-front-lg.html %}
+{% include sections/sec-blog.html %}
+{% include sections/sec-back.html %}
+</section>
+
+<!-- status -->
+<section class="alt-color">
+{% include sections/sec-front-lg.html %}
+{% include sections/sec-status.html %}
+{% include sections/sec-back.html %}
+</section>
+
+<!-- contact -->
+<section class="alt-color">
+{% include sections/sec-front-md.html %}
+{% include sections/sec-contact.html %}
+{% include sections/sec-back.html %}
+</section>

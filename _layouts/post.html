@@ -1,17 +1,66 @@
 ---
-layout: default
+layout: base
+common-ext-css:
+  - "/css/reading.css"
+  - "/css/blog-post.css"
+  - "/css/mucluc.css"
+  - "/css/insert-img.css"
+  - "/css/newsletter-inpost.css"
+  - "/css/post-list.css"
+  - "/css/book-list.css"
+  - "//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" 
 ---
 
-<div class="post">
-  <header class="post-header">
-    <h1>{{ page.title }}</h1>
-    {% if page.description %}
-    <p class="post-meta"><i>{{ page.description }}</i></p>
-    {% endif %}
-    <p class="post-meta">Posted on {{ page.date | date: "%B %-d, %Y" }} {% if page.author %}by {{ page.author }} {% else %} {% if site.author.name %}by {{ site.author.name }}{% endif %}{% endif %}</p>
-  </header>
+{% include header.html type="post" %}
 
-  {{ content }}
+{% include sections/sec-front-md.html %}
 
-  {% include comments.html %}
-</div>
+  {% include newsletter.html %}
+
+  <article role="main" class="blog-post">
+    {{ content }}
+  </article>
+
+  {% unless page.bookimg %}
+    {% if page.tags.size > 0 %}
+      <div class="blog-tags">
+        {% if site.link-tags %}
+          {% for tag in page.tags %}
+            <a href="{{ site.baseurl }}/tags#{{- tag -}}">{{- tag -}}</a>
+          {% endfor %}
+        {% else %}
+          {{ page.tags | join: ", " }}
+        {% endif %}
+      </div>
+    {% endif %}    
+  {% endunless %}
+
+{% include sections/sec-back.html %}
+
+{% include sections/sec-front-lg.html %}
+  {% unless page.bookimg %}
+    <div class="post-reading-list">
+      <h2>You may like?</h2>
+      <h4>
+          <a class="txt-color" href="/blog">see all posts</a>
+      </h4>
+    </div>
+    {% include related-posts.html %}
+  {% else %}
+    <div class="post-reading-list">
+      <h2>Recent read books</h2>
+      <h4>
+          <a class="txt-color" href="/reading">see all books</a>
+      </h4>
+    </div>
+    {% include sections/sec-reading.html %}
+  {% endunless %}
+{% include sections/sec-back.html %}
+
+{% include sections/sec-front-md.html %}
+  {% if page.comments %}
+    <div class="disqus-comments">
+      {% include disqus.html %}
+    </div>
+  {% endif %}
+{% include sections/sec-back.html %}

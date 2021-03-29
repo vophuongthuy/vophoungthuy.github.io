@@ -1,31 +1,123 @@
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <link rel="shortcut icon" type="image/jpg" href="/img/avatar-icon.jpg">
+  <meta name="robots" content="noindex">
+  
+  <title>
+    {% if page.url != "/" %}
+      Thi | {{ page.title }}
+    {% else %}
+      Dinh Anh Thi | A place where I show a part of my life
+    {% endif %}
+  </title>
 
-    <title>
-        {% if page.url != "/" %}
-            {{ site.author.name }} | {{ page.title }}
-        {% else %}
-            {{ site.author.name }}'s personal website
-        {% endif %}
-    </title>
+  <meta name="author" content="{{ site.author.name }}" />
 
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  {% if page.subtitle %}
+  <meta name="description" content="{{ page.subtitle }}">
+  {% endif %}
 
-    <link rel="stylesheet" href="{{ '/css/main.css' | prepend: site.baseurl }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}" />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }} {{ site.title-separator }} {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  {% include gtm_head.html %}
 
-    <link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+  {% if page.css %}
+    {% for css in page.css %}
+      {% include ext-css.html css=css %}
+    {% endfor %}
+  {% endif %}
 
-    <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
-    </script>
-    <script type="text/javascript" async
-    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-    </script>
+  {% if page.js %}
+    {% for js in page.js %}
+      {% include ext-js.html js=js %}
+    {% endfor %}
+  {% endif %}
+
+  {% if layout.common-ext-css %}
+    {% for css in layout.common-ext-css %}
+      {% include ext-css.html css=css %}
+    {% endfor %}
+  {% endif %}
+
+  {% if layout.common-css %}
+    {% for css in layout.common-css %}
+      <link rel="stylesheet" href="{{ css | prepend: site.baseurl | replace: '//', '/' }}" />
+    {% endfor %}
+  {% endif %}
+
+  {% if layout.common-googlefonts %}
+    {% for font in layout.common-googlefonts %}
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family={{ font }}" />
+    {% endfor %}
+  {% endif %}
+
+  {% if page.ext-css %}
+    {% for css in page.ext-css %}
+      {% include ext-css.html css=css %}
+    {% endfor %}
+  {% endif %}
+
+  {% if page.css %}
+    {% for css in page.css %}
+      <link rel="stylesheet" href="{{ css | prepend: site.baseurl | replace: '//', '/' }}" />
+    {% endfor %}
+  {% endif %}
+
+  {% if page.googlefonts %}
+    {% for font in page.googlefonts %}
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family={{ font }}" />
+    {% endfor %}
+  {% endif %}
+
+    <!-- Facebook OpenGraph tags -->
+  {% if site.fb_app_id %}
+  <meta property="fb:app_id" content="{{ site.fb_app_id }}" />
+  {% endif %}
+
+  {% if page.meta-title %}
+  <meta property="og:title" content="{{ page.meta-title }}" />
+  {% elsif page.title %}
+  <meta property="og:title" content="{{ page.title }}" />
+  {% else %}
+  <meta property="og:title" content="{{ site.title }}" />
+  {% endif %}
+
+   {% if page.meta-description %}
+  <meta property="og:description" content="{{ page.meta-description }}">
+  {% elsif page.subtitle %}
+  <meta property="og:description" content="{{ page.subtitle }}">
+  {% else %}
+  <meta property="og:description" content="{{ page.content | strip_html | xml_escape | truncatewords: 50 }}">
+  {% endif %}
+
+
+  <meta property="og:type" content="website" />
+
+  {% if page.id %}
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+  {% else %}
+  <meta property="og:url" content="{{ site.url }}{{ page.url | remove: '/index.html' | remove: '.html' }}" />
+  <link rel="canonical" href="{{ site.url }}{{ page.url | remove: '/index.html' | remove: '.html' }}" />
+  {% endif %}
+
+  {% if page.bigimg %}
+    <meta property="og:image" content="{{site.baseurl}}{{ page.bigimg }}" />
+  {% else %}
+    <meta property="og:image" content="{{site.baseurl}}/img/defaultCoverPost.png" />
+  {% endif %}
+
+  {% if site.matomo %}
+    {% include matomo.html %}
+  {% endif %}
+
+  <script type="text/javascript">
+    var postsHREF = [{% for post in site.posts %}{% unless post.bookimg %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endunless %}{% endfor %}];
+    var postsTitle = [{% for post in site.posts %}{% unless post.bookimg %}"{{ post.title }}"{% unless forloop.last %},{% endunless %}{% endunless %}{% endfor %}];
+    var postsDate = [{% for post in site.posts %}{% unless post.bookimg %}"{{ post.date | date: '%B %-d, %Y' }}"{% unless forloop.last %},{% endunless %}{% endunless %}{% endfor %}];
+    var postsBigImg = [{% for post in site.posts %}{% unless post.bookimg %}{% if post.bigimg %}"{{ post.bigimg }}"{% else %}"{{site.baseurl}}/img/defaultCoverPost.png"{% endif %}{% unless forloop.last %},{% endunless %}{% endunless %}{% endfor %}];
+  </script>
 
 </head>
