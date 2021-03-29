@@ -1,11 +1,27 @@
-<footer class="site-footer">
-    <a href="{{ site.url }}{{site.baseurl}}" alt="{{site.author.name}}'s website'">{{ site.author.name }}</a> 
-    | 
-    <a href="mailto:{{site.author.email}}">Contact</a> 
-    | 
-    <a href="/files/ky_duong_cv.pdf">CV</a>
-    <br />
-    Made by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="http://gchauras.github.io/much-worse-jekyll-theme/" target="_blank">Much-Worse Jekyll theme</a> 
-    | 
-    Edited by <a href="https://dinhanhthi.com" target="_blank">Thi Dinh</a>
+{% if site.footer_fixed %}
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}.
+    {{ site.footer_text }}
+    {% if site.impressum_path %}
+    <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+    {% endif %}
+    {% if site.last_updated %}
+    Last updated: {{ "now" | date: '%B %d, %Y' }}.
+    {% endif %}
+  </div>
 </footer>
+{% else %}
+<footer class="sticky-bottom mt-5">
+  <div class="container">
+    &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}.
+    {{ site.footer_text }}
+    {% if site.impressum_path %}
+    <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+    {% endif %}
+    {% if site.last_updated %}
+    Last updated: {{ "now" | date: '%B %d, %Y' }}.
+    {% endif %}
+  </div>
+</footer>
+{% endif %}
