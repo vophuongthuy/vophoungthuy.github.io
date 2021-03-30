@@ -7,9 +7,9 @@
 
   <title>
     {% if page.url != "/" %}
-      Thi | {{ page.title }}
+      {{ site.author.name }} | {{ page.title }}
     {% else %}
-      Dinh Anh Thi | A place where I show a part of my life
+      {{ site.author.name }} | {{ site.description }}
     {% endif %}
   </title>
 

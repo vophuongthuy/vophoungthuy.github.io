@@ -8,7 +8,7 @@ common-ext-css:
   - "/css/newsletter-inpost.css"
   - "/css/post-list.css"
   - "/css/book-list.css"
-  - "//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" 
+  - "//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css"
 ---
 
 {% include header.html type="post" %}
@@ -32,7 +32,7 @@ common-ext-css:
           {{ page.tags | join: ", " }}
         {% endif %}
       </div>
-    {% endif %}    
+    {% endif %}
   {% endunless %}
 
 {% include sections/sec-back.html %}
@@ -55,12 +55,4 @@ common-ext-css:
     </div>
     {% include sections/sec-reading.html %}
   {% endunless %}
-{% include sections/sec-back.html %}
-
-{% include sections/sec-front-md.html %}
-  {% if page.comments %}
-    <div class="disqus-comments">
-      {% include disqus.html %}
-    </div>
-  {% endif %}
 {% include sections/sec-back.html %}

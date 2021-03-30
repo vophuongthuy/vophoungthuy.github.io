@@ -1,3 +1,7 @@
+Personal website using [customized theme of Thi](https://github.com/dinhanhthi/dinhanhthi.com/tree/v0-jekyll).
+
+__Note__: This can be run with **Github Pages**.
+
 After cloning to a local server, run these:
 
 ~~~

@@ -2,7 +2,7 @@
 layout: base
 title: Status of Thi
 subtitle: Quick thoughts pass my head
-css: 
+css:
   - "/css/status.css"
 comments: 1
 ---
@@ -26,7 +26,7 @@ comments: 1
       {% endif %}
       <div class="Tstatus-body">
         <p>
-          {{ stat.status }} 
+          {{ stat.status }}
           {% if stat.link %}
             <a target="_blank" href="{{stat.link}}"> {{stat.des-link}}.</a>
           {% endif %}
@@ -36,7 +36,7 @@ comments: 1
         {{ stat.date }}
       </div>
     </div>
-    </li> 
+    </li>
   {% endfor %}
 <li class="clearfix" style="float: none;"></li>
 </ul>
@@ -56,7 +56,7 @@ comments: 1
       {% endif %}
       <div class="Tstatus-body">
         <p>
-          {{ stat.status }} 
+          {{ stat.status }}
           {% if stat.link %}
             <a target="_blank" href="{{stat.link}}"> {{stat.des-link}}.</a>
           {% endif %}
@@ -66,7 +66,7 @@ comments: 1
         {{ stat.date }}
       </div>
     </div>
-    </li> 
+    </li>
   {% endfor %}
 <li class="clearfix" style="float: none;"></li>
 </ul>
@@ -86,7 +86,7 @@ comments: 1
       {% endif %}
       <div class="Tstatus-body">
         <p>
-          {{ stat.status }} 
+          {{ stat.status }}
           {% if stat.link %}
             <a target="_blank" href="{{stat.link}}"> {{stat.des-link}}.</a>
           {% endif %}
@@ -96,15 +96,9 @@ comments: 1
         {{ stat.date }}
       </div>
     </div>
-    </li> 
+    </li>
   {% endfor %}
 <li class="clearfix" style="float: none;"></li>
 </ul>
 
-{% include sections/sec-back.html %}
-
-{% include sections/sec-front-md.html %}
-  <div class="disqus-comments">
-    {% include disqus.html %}
-  </div>
 {% include sections/sec-back.html %}

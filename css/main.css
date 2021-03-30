@@ -104,10 +104,6 @@ body {
   color: #404040;
   position: relative;
   background-color: #FFFFFF;
-  {% if site.page-img %}
-  background-image: url({{ site.page-img }});
-  background-attachment: fixed;
-  {% endif %}
 }
 p {
   line-height: 1.5;
@@ -205,13 +201,9 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background-color: {{ site.navbar-col }};
+  background-color: #F5F5F5;
   border-bottom: 1px solid #EAEAEA;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  {% if site.navbar-img %}
-  background-image: url({{ site.navbar-img }});
-  background-attachment: fixed;
-  {% endif %}
 }
 
 .navbar-custom .nav li a {
@@ -365,10 +357,6 @@ footer {
   margin-top: 40px;
   font-size: 14px;
   background-color: #F5F5F5;
-  {% if site.footer-img %}
-  background-image: url({{ site.footer-img }});
-  background-attachment: fixed;
-  {% endif %}
 }
 
 footer p.text-muted {
