@@ -2,9 +2,8 @@
 layout: base
 title: Blog of Thi
 subtitle: Write the thought
-css: 
+css:
   - "/css/post-list.css"
-  - "/css/newsletter-inpost.css"
   - "/css/book-list.css"
 ---
 
@@ -13,11 +12,9 @@ css:
 <section>
 {% include sections/sec-front-lg.html %}
 
-{% include newsletter.html %}
-
 <div class="row display-flex" style="margin-top: 50px;">
     {% for post in paginator.posts %}
-    
+
       <div class="col-xs-6 col-sm-4 col-md-3 card-post-padding">
         {% unless post.bookimg %}
         <div class="card-post">
@@ -51,7 +48,7 @@ css:
         </div>
         {% endunless %}
       </div>
-    
+
     {% endfor %}
   </div>
 

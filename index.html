@@ -1,12 +1,9 @@
 ---
 layout: base
-title: Dinh Anh Thi
-subtitle: A place where I show a part of my life
-css: 
+css:
   - "/css/status.css"
   - "/css/reading.css"
   - "/css/contact-form.css"
-  - "/css/newsletter.css"
   - "/css/sketch/sketch-page.css"
   - "/css/project.css"
   - "/css/activity.css"
@@ -29,7 +26,7 @@ js:
 <!-- activity -->
 <section class="alt-color">
 {% include sections/sec-front-lg.html %}
-{% include sections/sec-activity.html %}
+{% include sections/sec-activity.html source=site.data.activity limit=5 %}
 {% include sections/sec-back.html %}
 </section>
 
@@ -51,24 +48,10 @@ js:
   {% include sections/sec-back.html %}
 </section>
 
-<!-- sketch -->
-<section class="alt-color">
-{% include sections/sec-front-lg.html %}
-{% include sections/sec-sketch.html %}
-{% include sections/sec-back.html %}
-</section>
-
 <!-- blog -->
 <section class="alt-color">
 {% include sections/sec-front-lg.html %}
 {% include sections/sec-blog.html %}
-{% include sections/sec-back.html %}
-</section>
-
-<!-- status -->
-<section class="alt-color">
-{% include sections/sec-front-lg.html %}
-{% include sections/sec-status.html %}
 {% include sections/sec-back.html %}
 </section>
 

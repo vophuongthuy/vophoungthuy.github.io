@@ -4,7 +4,7 @@
 </h4>
 
 <ul class="timeline timeline-centered">
-  {% for obj in site.data.activity limit: 3 %}
+  {% for obj in include.source limit: include.limit %}
   <li class="timeline-item">
       <div class="timeline-info">
           <span>{{ obj.date }}</span>

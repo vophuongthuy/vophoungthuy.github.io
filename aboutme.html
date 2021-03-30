@@ -1,6 +1,6 @@
 ---
 layout: base
-title: About Thi
+title: About me
 subtitle: Understand me and share the hobbies
 css:
   - "/css/activity.css"
@@ -31,27 +31,7 @@ js:
 <!-- activity -->
 <section class="alt-color">
 {% include sections/sec-front-lg.html %}
-<h2 id="activity">Professional Experiences</h2>
-<ul class="timeline timeline-centered">
-  {% for obj in site.data.activity %}
-  <li class="timeline-item">
-    <div class="timeline-info">
-      <span>{{ obj.date }}</span>
-    </div>
-    <div class="timeline-marker"></div>
-    <div class="timeline-content">
-      {{ obj.act }}
-      {% if obj.more %}
-        <br />
-        <i class="Tmore T90">{{ obj.more }}</i>
-      {% endif %}
-      {% if obj.ref %}
-        <i class="Tmore T90"><a target="_blank" href="{{ obj.ref }}">Reference link.</a></i>
-      {% endif %}
-    </div>
-  </li>
-  {% endfor %}
-</ul>
+{% include sections/sec-activity.html source=site.data.activity %}
 {% include sections/sec-back.html %}
 </section>
 

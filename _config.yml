@@ -5,14 +5,9 @@ description: My small corner or researches and working
 
 # List of links in the navigation bar
 navbar-links:
-  Explore:
-    - Blog: "blog"
-    - Sketch: "sketch"
-    - Read: "reading"
-    - Status: "status"
-  Projects:
-    - Math2IT: "http://math2it.com"
-    - Tôi Tự Học: "https://toituhoc.xyz"
+  Lecture notes: "notes"
+  Teaching: "teaching"
+  Research: "research"
   About Me: "aboutme"
 
 
