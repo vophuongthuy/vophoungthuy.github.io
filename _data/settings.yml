@@ -1,6 +1,21 @@
-nStatus: 4 # number of status showed in index page
+site:
+  title: Thuy VO
+  description: My small corner for researches and working
+
+author:
+  name: Thuy VO
+  email: phuongthuywz@gmail.com
+  avatar: "/img/avatar-icon.jpg"
+
+navbar-links:
+  '<i class="fas fa-book-open"></i> Blog': "blog"
+  '<i class="fas fa-chalkboard-teacher"></i> Teaching': "about/#teaching"
+  '<i class="fas fa-microscope"></i> Research': "research"
+  '<i class="fas fa-fire"></i> About Me': "about"
+
 nBooks: 4 # number of books showed in reading list (must be devisor of 12)
 nPosts: 8 # number of posts showed in latest posts
-nPhotos: 8 # number of photos in latest sketches
+# nPhotos: 8 # number of photos in latest sketches
+
 size-lg: "col-sm-10 col-sm-offset-1 col-12" # bigger size width
 size-md: "col-sm-8 col-sm-offset-2 col-12" # smaller size width (in comp with size-lg)

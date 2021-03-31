@@ -7,19 +7,19 @@
 
   <title>
     {% if page.url != "/" %}
-      {{ site.author.name }} | {{ page.title }}
+      {{ site.data.settings.author.name }} | {{ page.title }}
     {% else %}
-      {{ site.author.name }} | {{ site.description }}
+      {{ site.data.settings.author.name }} | {{ site.data.settings.site.description }}
     {% endif %}
   </title>
 
-  <meta name="author" content="{{ site.author.name }}" />
+  <meta name="author" content="{{ site.data.settings.author.name }}" />
 
   {% if page.subtitle %}
   <meta name="description" content="{{ page.subtitle }}">
   {% endif %}
 
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }} {{ site.title-separator }} {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.data.settings.site.title }} {{ site.data.settings.site.title-separator }} {{ site.data.settings.site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
   {% if page.css %}
     {% for css in page.css %}
@@ -74,7 +74,7 @@
   {% elsif page.title %}
   <meta property="og:title" content="{{ page.title }}" />
   {% else %}
-  <meta property="og:title" content="{{ site.title }}" />
+  <meta property="og:title" content="{{ site.data.settings.site.title }}" />
   {% endif %}
 
    {% if page.meta-description %}

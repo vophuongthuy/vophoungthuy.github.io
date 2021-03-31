@@ -1,7 +1,7 @@
-<h2>Recent professional activities</h2>
-<h4>
-    <a class="txt-color" href="/aboutme#activity">see all list</a>
-</h4>
+<h2{% if include.ref %} id="{{ include.ref }}"{% endif %}>{{ include.heading }}</h2>
+{% if include.ref-title %}
+<h4><a class="txt-color" href="{{ include.ref }}">{{ include.ref-title }}</a></h4>
+{% endif %}
 
 <ul class="timeline timeline-centered">
   {% for obj in include.source limit: include.limit %}

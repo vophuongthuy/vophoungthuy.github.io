@@ -1,0 +1,15 @@
+<h2{% if include.ref %} id="{{ include.ref }}"{% endif %}>{{ include.heading }}</h2>
+{% if include.ref-title %}
+<h4><a class="txt-color" href="{{ include.ref }}">{{ include.ref-title }}</a></h4>
+{% endif %}
+
+<ul class="publications">
+  {% for item in include.source limit: include.limit %}
+  <li class="item">
+    <b>{{ item.course }}</b>.
+		<i>{{ item.university }}</i>.
+		{% if item.time %}{{ item.time }}.{% endif %}
+		{% if item.role %}{{ item.role }}.{% endif %}
+  </li>
+  {% endfor %}
+</ul>

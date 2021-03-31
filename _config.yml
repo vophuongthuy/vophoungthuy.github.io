@@ -1,21 +1,5 @@
 url: ""
 baseurl: ""
-title: Thuy VO
-description: My small corner or researches and working
-
-# List of links in the navigation bar
-navbar-links:
-  Lecture notes: "notes"
-  Teaching: "teaching"
-  Research: "research"
-  About Me: "aboutme"
-
-
-avatar: "/img/avatar-icon.jpg"
-author:
-  name: Thuy VO
-  email: phuongthuywz@gmail.com
-
 
 excerpt_length: 50
 title-separator: "-"
