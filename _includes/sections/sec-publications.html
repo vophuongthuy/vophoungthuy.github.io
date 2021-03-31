@@ -7,7 +7,7 @@
   {% for item in include.source limit: include.limit %}
   <li class="item">
     {% for name in item.author %}{% unless forloop.last %}{% unless forloop.first %},{% endunless %} {% else %}{%
-    unless forloop.first %} and {% endunless %}{% endunless %}<b>{{ name }}</b>{% endfor %}</b>.
+    unless forloop.first %} and {% endunless %}{% endunless %}<b>{{ name }}</b>{% endfor %}.
     "{{ item.title }}".
     {% if item.publisher %}<i>{{ item.publisher }}</i>.{% endif %}
     {% if item.source %}{{ item.source }}.{% endif %}
