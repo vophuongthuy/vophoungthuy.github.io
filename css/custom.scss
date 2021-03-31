@@ -2,5 +2,35 @@
 ---
 
 .navbar-right li i {
-	font-size: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.publications {
+  .item {
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #ccc;
+    list-style: none;
+    padding-bottom: 1.5rem;
+
+    &::before {
+      content: "\f1ea";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 400;
+      opacity: 0.9;
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+
+.contact {
+  text-align: center;
+  hr {
+    width: 200px;
+  }
+  .email {
+    margin-top: 1.5rem;
+  }
 }

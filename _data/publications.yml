@@ -1,11 +1,18 @@
-- author: "Thi Phuong Thuy Vo"
+- author:
+    - "Thi Phuong Thuy Vo"
   title: "Chain-referral sampling on Stochastic Block Models"
   publisher: "ESAIM: PS, 24 (2020) 718-738"
   source: "DOI: https://doi.org/10.1051/ps/2020025"
-- author: "Viet Chi Tran, Thi Phuong Thuy Vo"
+- author:
+    - "Viet Chi Tran"
+    - "Thi Phuong Thuy Vo"
   title: "Estimation of dense stochastic block model visited by random walks"
   publisher: "Electric journal of Statistics (EJS) (in revision 2020)"
   source: "https://hal.archives-ouvertes.fr/hal-02867642/"
-- author: "Jean-Stéphane Dhersin, Viet Chi Tran and Thi Phuong Thuy Vo"
+- author:
+    - "Jean-Stéphane Dhersin"
+    - "Viet Chi Tran"
+    - "Thi Phuong Thuy Vo"
   title: "Respondent Driven Sampling on sparse Erdös-Rényi graphs"
+  publisher: "__"
   more: "In process"

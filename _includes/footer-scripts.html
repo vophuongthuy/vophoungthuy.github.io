@@ -30,3 +30,24 @@
     {% endif %}
   {% endfor %}
 {% endif %}
+
+<script>
+  // anchor link fixed navigation from top
+  function offsetAnchor() {
+    if (location.hash.length !== 0) {
+      window.scrollTo(window.scrollX, window.scrollY - 80);
+    }
+  }
+  // Captures click events of all <a> elements with href starting with #
+  addEventListener('click', function (e) {
+    // Click events are captured before hashchanges. Timeout
+    // causes offsetAnchor to be called after the page jump.
+    if (e.target.tagName == "A" && e.target.hash.startsWith("#")) {
+      window.setTimeout(function () {
+        offsetAnchor();
+      }, 0);
+    }
+  });
+  // Set the offset when entering page with hash present in the url
+  window.setTimeout(offsetAnchor, 0);
+</script>

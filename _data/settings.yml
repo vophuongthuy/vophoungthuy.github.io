@@ -10,7 +10,7 @@ author:
 navbar-links:
   '<i class="fas fa-book-open"></i> Blog': "blog"
   '<i class="fas fa-chalkboard-teacher"></i> Teaching': "about/#teaching"
-  '<i class="fas fa-microscope"></i> Research': "research"
+  '<i class="fas fa-microscope"></i> Research': "about/#research"
   '<i class="fas fa-fire"></i> About Me': "about"
 
 nBooks: 4 # number of books showed in reading list (must be devisor of 12)
