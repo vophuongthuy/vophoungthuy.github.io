@@ -1,18 +1,12 @@
-- date: 12/2013 - present
-  act: "Ph.D. student at University Paris 13"
-  more: I keep working on the biofilm’s life with a higher level. I have used Finite Element Method coupling with FreeFem++ to simulate the life of biofilm.
-  ref: https://indico.math.cnrs.fr/event/1301/overview
-- date: 4/2013 - 7/2013
-  act: "Intern at University Paris 13 "
-  more: "Working on the subject \"Mathematical modeling of biofilms resistance to antimicrobial agents\" for 4 months under the guidance of Prof. Linda El ALAOUI."
-  ref: /files/master_thesis_thi.pdf
-- date: 2012 - 2013
-  act: "Student of France-Vietnam Master 2 program"
-  more: I studied 6 subjects with different fields (including Numerical Analysis, Statistics, PDE,…). At the end of the program, I took an internship at U.Paris 13.
+- date: 10/2016 - 11/2020
+  act: "Ph.D. student at University Sorbonne Paris Nord"
+  more: My work focuses maily on the studies the exploration processes on some specific models of random graphs, such as Erdös-Rényi, Stochastic Block Models.
+  ref: https://hal.archives-ouvertes.fr/tel-03104255v1
+- date: 09/2015 - 7/2016
+  act: "Master 2 in Applied Mathematics: Probability and Statistics at Uiversity Sorbonne Paris Nord."
+- date: 09/2014 - 07/2015
+  act: "Master 1 at the Institute of Mathematics - Vietnam Academy of Science and Technology in Hanoi, Vietnam."
+  more: The international master at the Institute of Mathematics is a program only for selected students. The lectures are given by professors and experts from different countries in the world.
   ref: https://sites.google.com/site/frenchvietnammaster2/
-- date: 2008 - 2012
-  act: Student of Department of Mathematics , HCM City University of Pedagogy
-  more: I learned a lot of Maths topics and how to become a Maths teacher.
-- date: 2005 - 2008
-  act: Student of Ben Tre high school for gifted students
-  more: My main major here is Maths.
+- date: 2010 - 2014
+  act: Student of Department of Mathematics , University of Pedagogy - University of Hue.
