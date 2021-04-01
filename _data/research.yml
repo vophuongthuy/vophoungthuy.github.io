@@ -1,12 +1,14 @@
-- date: 12/2013 - present
-  act: "Ph.D. project with the subject: \"A finite element approximation of a biofilm growth model\""
-  more: Under the supervision of Prof. Linda El Alaoui (U. Paris 13) and Prof. Adel Blouza (Rouen U.).
-  ref: https://indico.math.cnrs.fr/event/1301/overview
-- date: 4/2013 - 7/2013
-  act: "Master project with the subject \"Mathematical modeling of biofilms resistance to antimicrobial agents\""
-  more: Under the supervision of Prof. Linda El Alaoui (U. Paris 13)
-  ref: /files/master_thesis_thi.pdf
-- date: 2012
-  act: "Realization of scientific research and graduation thesis in applied Maths. Subject: \"Distance learning applying HTTP Live Streaming technology on Windows platform\""
-  more: Base on the ideas of teachers and students in HCM city, I with my partners developed a website for the distance learning purpose.
-  ref: https://www.ljll.math.upmc.fr/hecht/ftp/ff++days/2015/Schedule.html
+- date: 09/2020 - present
+  act: "Associated researcher (ATER) at Laboratory of Analysis and Applied Mathematiques (LAMA) - University Gustave Eiffel." 
+  more: Work in the team of Probability and Statistics.  
+- date: 10/2016 - 11/2020
+  act: "Ph.D. project with the subject: \"Exploration of random graphs by the Respondent Driven Sampling (RDS) method.\""
+  more: Under the supervision of Prof. Jean-Stéphane Dhersin (University Sorbonne Paris Nord) and Prof. Viet Chi Tran (University Gustave Eiffel).
+  ref:  https://hal.archives-ouvertes.fr/tel-03104255v1
+- date: 4/2016 - 7/2016
+  act: "Master internship project with the subject \"Approximating the epidemic curve\""
+  more: Under the supervision of Prof. Jean-Stéphane Dhersin (University Sorbonne Paris Nord) and Prof. Viet Chi Tran (University Gustave Eiffel).
+  ref: "__"
+- date: 2014
+  act: "Bachelor thesis with subject:  \"Generalized inverse of a matrix: Drazin inverse.\""
+  more: "__"
