@@ -15,11 +15,7 @@ js:
 {% include sections/sec-front-md.html %}
 
 <div class="txt-center" markdown="1">
-My name is Dinh Anh **Thi** (call me Thi), a Vietnamese guy who
-is curious about everything. I start from an amateur mathematician and a
-curious learner. I like to write about applied maths, apps and tools which
-are helpful for the human life. I also like to [read](#), to [travel](#) and to meet
-people.
+I am **Thuy**, a Mathematician and a Math teacher. My research focuses on the field of random graphs, in particular, the exploration process in random networks. I am also interested in the estimation problem for some models applied in Biology and Socialogy.  My small hobbies are photography and travel. Meeting people and discovering the world are always part of my future projects.
 </div>
 
 {% include sections/sec-back.html %}
