@@ -1,3 +1,5 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/vophuongthuy/vophuongthuy.github.io)
+
 Personal website using [customized theme of Thi](https://github.com/dinhanhthi/dinhanhthi.com/tree/v0-jekyll).
 
 __Note__: This can be run with **Github Pages**.
