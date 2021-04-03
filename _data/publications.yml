@@ -4,19 +4,20 @@
     - "Viet Chi Tran"
     - "Thi Phuong Thuy Vo"
   title: "Respondent Driven Sampling on sparse Erdös-Rényi graphs"
-  more: submitted, 2021.
-  source: "https://hal.archives-ouvertes.fr/hal-03183146/"
+  source: "https://hal.archives-ouvertes.fr/hal-03183146"
+  more: submitted, 2021
 - author:
     - "Viet Chi Tran"
     - "Thi Phuong Thuy Vo"
   title: "Estimation of dense stochastic block model visited by random walks"
   publisher: "Electric journal of Statistics (EJS) (in revision 2020)"
-  source: "https://hal.archives-ouvertes.fr/hal-02867642/"
+  source: "https://hal.archives-ouvertes.fr/hal-02867642"
 - author:
     - "Thi Phuong Thuy Vo"
   title: "Chain-referral sampling on Stochastic Block Models"
   publisher: "ESAIM: PS, 24 (2020) 718-738"
-  source: "DOI: https://doi.org/10.1051/ps/2020025"
+  source-prefix: "DOI:"
+  source: "https://doi.org/10.1051/ps/2020025"
 - author:
     - "Nicolas Bloyet"
     - "Hélène Flourent"
@@ -26,5 +27,6 @@
     - "Thi Phuong Thuy Vo"
   title: "Construction of a statistical learning tool based on ordinary differential equations to model the digestive behaviour of ross chickens"
   publisher: "ESAIM: PROCEEDINGS AND SURVEYS, 2020, Vol. 67, p. 61-71"
+  source-prefix: "DOI:"
+  source: "https://doi.org/10.1051/proc/202067005"
   more: "CEMRACS 2018 - Numerical and mathematical modeling for biological and medical applications: deterministic, probabilistic and statistical descriptions"
-  source: "DOI: https://doi.org/10.1051/proc/202067005"  

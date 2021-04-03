@@ -3,13 +3,36 @@
 <h4><a class="txt-color" href="{{ include.ref }}">{{ include.ref-title }}</a></h4>
 {% endif %}
 
-<ul class="publications">
+<ul class="timeline timeline-left teaching">
   {% for item in include.source limit: include.limit %}
-  <li class="item">
-    <b>{{ item.course }}</b>.
-		<i>{{ item.university }}</i>.
-		{% if item.time %}{{ item.time }}.{% endif %}
-		{% if item.role %}{{ item.role }}.{% endif %}
+  <li class="timeline-item">
+    <div class="timeline-info">
+      <span>{{ item.year }}</span>
+    </div>
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <ul class="courses">
+        {% for cr in item.courses %}
+          <li class="course-item">
+            <div class="course-name">
+              <b>{{ cr.name }}</b>
+            </div>
+            <div class="course-univ">
+              <i>{{ cr.university }}</i> -- {{ cr.date }}
+            </div>
+            <div class="course-info">
+              {% if cr.files %}
+                {% for f in cr.files %}
+                  <a href="{{ f.url }}">{{ f.name }}</a>
+                  {% unless forloop.last %} | {% endunless %}
+                {% endfor %}
+              {% endif %}
+              {% if cr.url %} | <a href="{{cr.url}}">More reference</a>.{% endif %}
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
   </li>
   {% endfor %}
 </ul>

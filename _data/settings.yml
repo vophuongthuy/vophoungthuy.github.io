@@ -8,10 +8,10 @@ author:
   avatar: "/img/avatar-icon.jpg"
 
 navbar-links:
-  '<i class="fas fa-book-open"></i> Blog': "blog"
-  '<i class="fas fa-chalkboard-teacher"></i> Teaching': "about/#teaching"
-  '<i class="fas fa-microscope"></i> Research': "about/#research"
-  '<i class="fas fa-fire"></i> About Me': "about"
+  '<i class="fas fa-pen-fancy"></i> Blog': "blog"
+  '<i class="fas fa-microscope"></i> Research': "#research"
+  '<i class="far fa-newspaper"></i> Publications': "#publications"
+  '<i class="fas fa-book-open"></i> Teaching': "#teaching"
 
 nBooks: 4 # number of books showed in reading list (must be devisor of 12)
 nPosts: 8 # number of posts showed in latest posts

@@ -584,7 +584,8 @@ h2.post-subheading{
 }
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading {
-  font-size: 24px;
+  font-size: 21px;
+  font-style: italic;
   line-height: 1.1;
   display: block;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -634,7 +635,7 @@ h2.post-subheading{
   }
 
   .intro-header .page-heading h1 {
-    font-size: 60px;
+    font-size: 4rem;
   }
   .intro-header .post-heading h1 {
     font-size: 50px;

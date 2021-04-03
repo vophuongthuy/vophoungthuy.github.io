@@ -1,4 +1,22 @@
-- course: "Statistics for 2nd year of Mathematics"
-  university: "University Sorbonne Paris Nord"
-  time: "2nd semester (2019-2020)"
-  role: "ATER"
+- year: "2019 - 2020"
+  courses:
+    - name: "Statistics for 2nd year of Mathematics"
+      university: "University Sorbonne Paris Nord"
+      date: 2nd semester
+      more: I love this job
+      files:
+        - name: Lecture note
+          url: "files/file_1_2.pdf"
+        - name: Exam
+          url: "files/exam.pdf"
+      url: https://dinhanhthi.com
+    - name: "Course 2"
+      university: "Paris 13"
+      date: 1st
+      role: MDC
+- year: "2018 - 2019"
+  courses:
+    - name: "Statistics for 2nd year of Mathematics"
+      university: "University Sorbonne Paris Nord"
+      date: 2nd semester
+      more: I love this job
