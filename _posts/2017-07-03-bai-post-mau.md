@@ -30,3 +30,7 @@ x &= 1+2
 \end{cases}
 \end{align}
 $$
+
+## Chen hinh
+
+![Mieu ta cho hinh](/img/post/hinh_mau.jpg)
