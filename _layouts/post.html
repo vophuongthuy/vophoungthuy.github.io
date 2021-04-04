@@ -32,23 +32,3 @@ common-ext-css:
   {% endunless %}
 
 {% include sections/sec-back.html %}
-
-{% include sections/sec-front-lg.html %}
-  {% unless page.bookimg %}
-    <div class="post-reading-list">
-      <h2>You may like?</h2>
-      <h4>
-          <a class="txt-color" href="/blog">see all posts</a>
-      </h4>
-    </div>
-    {% include related-posts.html %}
-  {% else %}
-    <div class="post-reading-list">
-      <h2>Recent read books</h2>
-      <h4>
-          <a class="txt-color" href="/reading">see all books</a>
-      </h4>
-    </div>
-    {% include sections/sec-reading.html %}
-  {% endunless %}
-{% include sections/sec-back.html %}
