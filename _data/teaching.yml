@@ -4,26 +4,45 @@
       university: "Université Gustave Eiffel"
       date: "1ere semestre"
       files:
-        - name: Exercices
+        - name: "Exercices"
           url: "files/TD_proba_S3.pdf"
-        - name: Contrôle continu
+        - name: "Contrôle continu"
           url: "files/CC1_proba_S3.pdf"
+     - name: "Mathématiques pour L1 en Economie-Gestion"
+       university: "Université Gustave Eiffel"
+       date: "1ere semestre"
+       files:
+        - name: "Contrôle continu"
+          url: "files/CC1_maths_S1.pdf"
+      - name: "Probabilité et Statistiques pour L1 en Economie-Gestion"
+        university: "Université Gustave Eiffel"
+        date: "2eme semestre"
+        files:
+        - name: "Contrôle continu"
+          url: "files/CC_proba_S2.pdf"
+      - name: "Mathématiques pour L1 en Economie-Gestion"
+        university: "Université Gustave Eiffel"
+        date: "2eme semestre"
+        files:
+        - name: "Contrôle continu"
+          url: "files/CC_maths_S2.pdf"   
 - year: "2019 - 2020"
   courses:
     - name: "Statistics for 2nd year of Mathematics"
       university: "University Sorbonne Paris Nord"
       date: 2nd semester
-      more: I love this job
+      more: 
       files:
         - name: Lecture note
           url: "files/file_1_2.pdf"
         - name: Exam
           url: "files/exam.pdf"
       url: https://dinhanhthi.com
-    - name: "Course 2"
-      university: "Paris 13"
-      date: 1st
-      role: MDC
+    - name: "Statistics for 3 year of Informatics"
+      university: "University Sorbonne Paris Nord"
+      date: "1st semester"
+      role: "Chargée de TD et TP"
+      more: "Programming in Matlab"
 - year: "2018 - 2019"
   courses:
     - name: "Statistics for 2nd year of Mathematics"
