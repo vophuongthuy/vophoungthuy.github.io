@@ -33,11 +33,11 @@
       date: "2eme semestre"
       more: 
       files:
-        - name: Lecture note
+        - name: "Lecture note"
           url: "files/file_1_2.pdf"
-        - name: Examen
+        - name: "Examen"
           url: "files/exam.pdf"
-     url: https://www.math.univ-paris13.fr/~tournier/fichiers/ccs/2018/poly.pdf
+      url: https://www.math.univ-paris13.fr/~tournier/fichiers/ccs/2018/poly.pdf
     - name: "Statistiques pour L3 en Informatiques"
       university: "Université Sorbonne Paris Nord"
       date: "1ere semestre"
