@@ -8,22 +8,22 @@
           url: "files/TD_proba_S3.pdf"
         - name: "Contrôle continu"
           url: "files/CC1_proba_S3.pdf"
-     - name: "Mathématiques pour L1 en Economie - Gestion"
-       university: "Université Gustave Eiffel"
-       date: "1ere semestre"
-       files:
+    - name: "Mathématiques pour L1 en Economie - Gestion"
+      university: "Université Gustave Eiffel"
+      date: "1ere semestre"
+      files:
         - name: "Contrôle continu"
           url: "files/CC1_maths_S1.pdf"
-      - name: "Probabilité et Statistiques pour L1 en Economie - Gestion"
-        university: "Université Gustave Eiffel"
-        date: "2eme semestre"
-        files:
+    - name: "Probabilité et Statistiques pour L1 en Economie - Gestion"
+      university: "Université Gustave Eiffel"
+      date: "2eme semestre"
+      files:
         - name: "Contrôle continu"
           url: "files/CC_proba_S2.pdf"
-      - name: "Mathématiques pour L1 en Economie - Gestion"
-        university: "Université Gustave Eiffel"
-        date: "2eme semestre"
-        files:
+    - name: "Mathématiques pour L1 en Economie - Gestion"
+      university: "Université Gustave Eiffel"
+      date: "2eme semestre"
+      files:
         - name: "Contrôle continu"
           url: "files/CC_maths_S2.pdf"   
 - year: "2019 - 2020"
