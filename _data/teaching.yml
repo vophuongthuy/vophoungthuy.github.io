@@ -38,7 +38,7 @@
         - name: "Examen"
           url: "files/exam.pdf"
       url: https://www.math.univ-paris13.fr/~tournier/fichiers/ccs/2018/poly.pdf
-    - name: "Probabilité et Statistiques pour 2eme année d'Ingénieur en Physics et Chimie"
+    - name: "Probabilité et Statistiques pour 2eme année d'Ingénieur en Physiques et Chimie"
       university: "Université Sorbonne Paris Nord"
       date: "2eme semestre"
     - name: "Statistiques pour L3 en Informatiques"
@@ -57,3 +57,11 @@
     - name: "Mathématiques pour préparation L0"
       university: "Université Sorbonne Paris Nord"
       date: "1ere semestre"
+- year: "2017 - 2018"
+  courses:
+    - name: "Analyse 3 pour L2 de Mathématiques"
+      university: "Université Sorbonne Paris Nord"
+      date: "1ere semestre"
+    - name: "Mathématiques pour L1 de Physiques et Chimie"
+      university: "Université Sorbonne Paris Nord"
+      date: "1ere semestre"  
