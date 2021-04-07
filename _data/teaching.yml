@@ -28,24 +28,24 @@
           url: "files/CC_maths_S2.pdf"   
 - year: "2019 - 2020"
   courses:
-    - name: "Statistics for 2nd year of Mathematics"
-      university: "University Sorbonne Paris Nord"
-      date: 2nd semester
+    - name: "Statistiques L2 de Mathematiques"
+      university: "Université Sorbonne Paris Nord"
+      date: "2eme semestre"
       more: 
       files:
         - name: Lecture note
           url: "files/file_1_2.pdf"
-        - name: Exam
+        - name: Examen
           url: "files/exam.pdf"
-      url: https://dinhanhthi.com
-    - name: "Statistics for 3 year of Informatics"
-      university: "University Sorbonne Paris Nord"
-      date: "1st semester"
+     url: https://www.math.univ-paris13.fr/~tournier/fichiers/ccs/2018/poly.pdf
+    - name: "Statistiques pour L3 en Informatiques"
+      university: "Université Sorbonne Paris Nord"
+      date: "1ere semestre"
       role: "Chargée de TD et TP"
       more: "Programming in Matlab"
 - year: "2018 - 2019"
   courses:
-    - name: "Statistics for 2nd year of Mathematics"
-      university: "University Sorbonne Paris Nord"
+    - name: "Algèbre L1 de Mathematiques et Informatiques"
+      university: "Université Sorbonne Paris Nord"
       date: 2nd semester
       more: I love this job
