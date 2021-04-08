@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Resume of steps to do a machine learning project"
+tags: [note]
+full: true
+categories: learning
+bigimg: /img/lam-tho-1.jpg
+math: 1
+---
+
+This is a short note of steps to follow when doing a machine learning project.
+
+{% include toc.html %}
+
+# Heading
+
+Content
+
+$$
+\dfrac{1}{2} = a+b+c
+$$
+
+$$
+\begin{align}
+\begin{cases}
+f(x) &= \displaystyle\int_{-\infty}^\infty
+    \hat{f} \xi\,e^{2 \pi i \xi x}
+    \,d\xi \\
+x &= 1+2
+\end{cases}
+\end{align}
+$$
+
+## Chen hinh
+
+![Mieu ta cho hinh](/img/post/hinh_mau.jpg)
