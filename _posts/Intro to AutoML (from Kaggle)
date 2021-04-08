@@ -14,7 +14,16 @@ This is a short note of steps to follow when doing a machine learning project.
 
 # Heading
 
-Content
+In a machine learning (ML) project, we work normally within 7 follwing steps:
+\begin{itemize}
+\item Step 1: Gather the data.
+\item Step 2: Prepare the data.
+\item Step 3: Select the model.
+\item Step 4: Train the model.
+\item Step 5: Evaluate the model.
+\item Step 6: Tune parameters.
+\item Step 7: Get predictions.
+\end{itemize}
 
 $$
 \dfrac{1}{2} = a+b+c
