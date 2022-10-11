@@ -12,7 +12,7 @@ css:
 <section class="alt-color">
   {% include sections/sec-front-md.html %}
   <p class="text-justify" style="margin: 0;" markdown="1">
-  I am **Thuy**, a Mathematician and a Math teacher. My research focuses on the field of random graphs, in particular, the exploration process in random networks. I am also interested in the estimation problem for some models applied in Biology and Sociology.
+  I am **Thuy**, a Mathematician and a Math teacher. My research focuses on the field of random graphs, in particular, random networks with applications in Statistics. I am also interested in the probabilistic models, deep learning networks for the study of Epidemic and Biology.
   </p>
   {% include sections/sec-back.html %}
 </section>
