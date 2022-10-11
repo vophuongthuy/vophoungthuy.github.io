@@ -1,4 +1,12 @@
 - author:
+    - "Hélène Morlon"
+    - "Amaury Lambert"
+    - "Hélène Leman"
+    - "Thi Phuong Thuy Vo"
+  title: "Long-term evolution of phenotypic traits by micro-macro approaches"
+  source: ""
+  more: on going
+- author:
     - "Anthony Cousien"
     - "Jean-Stéphane Dhersin"
     - "Viet Chi Tran"
@@ -10,8 +18,8 @@
     - "Viet Chi Tran"
     - "Thi Phuong Thuy Vo"
   title: "Estimation of dense stochastic block model visited by random walks"
-  publisher: "Electric journal of Statistics (EJS) (in revision 2020)"
-  source: "https://hal.archives-ouvertes.fr/hal-02867642"
+  publisher: "Electronic Journal of Statistics, 2021, vol. 15, no 2, p. 5855-5887."
+  source: "DOI: 10.1214/21-EJS1899"
 - author:
     - "Thi Phuong Thuy Vo"
   title: "Chain-referral sampling on Stochastic Block Models"
