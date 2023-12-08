@@ -1,36 +1,23 @@
 ---
 layout: post
-title: "Bai post binh thuong"
+title: "Poisson point process"
 tags: [note]
 full: true
 categories: reading
-bigimg: /img/lam-tho-1.jpg
+bigimg: 
 math: 1
 ---
 
-Intro paragraph.
+Here are some notes about the Poisson point process.
 
 {% include toc.html %}
 
-# Heading
+# Introduction
 
-Content
 
-$$
-\dfrac{1}{2} = a+b+c
-$$
 
-$$
-\begin{align}
-\begin{cases}
-f(x) &= \displaystyle\int_{-\infty}^\infty
-    \hat{f} \xi\,e^{2 \pi i \xi x}
-    \,d\xi \\
-x &= 1+2
-\end{cases}
-\end{align}
-$$
 
-## Chen hinh
+
+## 
 
 ![Mieu ta cho hinh](/img/post/hinh_mau.jpg)
