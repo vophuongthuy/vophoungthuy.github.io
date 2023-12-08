@@ -1,24 +1,24 @@
 ---
 layout: post
-title: "Post book mẫu"
-bookauthor: Simon Singh
+title: "Statistical thinking"
+bookauthor: 
 tags: [reading]
-bookimg: /img/matma.jpg
+bookimg: 
 full: true
 genre: science infotech nonfiction
 categories: reading
 ---
 
-Nội dung bài, chèn dòng bên dưới nếu muốn hiển thị mục lục.
+ABC
 
 {% include toc.html %}
 
-## Bản mật mã của Nữ hoàng Mary xứ Scotland
+## Chapter 1
 
-### Âm mưu Babington
+### Section 1
 
-Nội dung
+ABC
 
-## Heading
+## ABC
 
 Content
