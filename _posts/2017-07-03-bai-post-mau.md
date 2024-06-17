@@ -20,4 +20,4 @@ Here are some notes about the Poisson point process.
 
 ## 
 
-![Mieu ta cho hinh](/img/post/hinh_mau.jpg)
+
