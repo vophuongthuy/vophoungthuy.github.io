@@ -19,4 +19,4 @@ Intro paragraph.
 
 ## Chen hinh
 
-![Mieu ta cho hinh](/img/post/hinh_mau.jpg)
+
