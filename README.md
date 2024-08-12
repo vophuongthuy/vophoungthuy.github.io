@@ -1,4 +1,4 @@
-Personal website using [customized theme of Thi](https://github.com/dinhanhthi/dinhanhthi.com/tree/v0-jekyll).
+Personal website using [customized theme of Thi](https://github.com/dinhanhthi/dinhanhthi.com-v1).
 
 __Note__: This can be run with **Github Pages**.
 
